@@ -21,5 +21,7 @@ namespace ApiTarefaLogin.Models.Entities
         [Required]
         [StringLength(26)]
         public string Password { get; set; } = default!;
+
+        public virtual ICollection<Tarefa> TarefaId { get; set; } = default!;
     }
 }

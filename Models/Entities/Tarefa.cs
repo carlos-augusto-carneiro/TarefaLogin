@@ -12,9 +12,9 @@ namespace ApiTarefaLogin.Models.Entities
     {
         [Key]
         public Guid Id { get; set; }
-        public Login LoginId { get; set; } = default!;
         [Required]
         [StringLength(124)]
+        public Guid LoginId { get; set; }
         public string Titulo { get; set; } = default!;
         [Required]
         [StringLength(500)]
@@ -25,5 +25,6 @@ namespace ApiTarefaLogin.Models.Entities
         public DateTime DateEndTask { get; set; }
         [Required]
         public StatusEnum Status { get; set; }
+        public virtual Login Login { get; set; } = default!;
     }
 }

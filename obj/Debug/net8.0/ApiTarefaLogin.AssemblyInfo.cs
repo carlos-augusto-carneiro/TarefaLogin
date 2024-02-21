@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiTarefaLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3048f447cf55878aacfaf4888e032470f0d48fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiTarefaLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiTarefaLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

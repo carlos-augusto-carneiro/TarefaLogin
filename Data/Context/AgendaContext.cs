@@ -17,7 +17,7 @@ namespace ApiTarefaLogin.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Tarefa>().HasOne( t => t.LoginId).WithOne().HasForeignKey<Tarefa>( t => t.LoginId);
+            modelBuilder.Entity<Tarefa>().HasOne( l => l.Login).WithMany( t => t.TarefaId).HasForeignKey( x => x.LoginId);
         }
     }
 }
